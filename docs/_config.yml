@@ -1,0 +1,6 @@
+theme: jekyll-theme-minimal  # This specifies the theme you're using
+title: Capstone-project---Image-Detect # The title of your site
+description: A place to showcase my work # A short description of your website
+url: "https://github.com/Shoaib-Akther-Asif.io"  # Your GitHub Pages URL (replace username with your actual username)
+baseurl: ""  # This should remain empty unless you have a subfolder setup
+markdown: kramdown  # The markdown engine used for writing posts

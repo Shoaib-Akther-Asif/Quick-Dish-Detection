@@ -1,0 +1,1 @@
+You can use access the extracted data from browser directly with this [link](https://drive.google.com/drive/folders/1-2NUtarvn3mOdojgN-ooQTKpYA8cVgEX?usp=sharing)

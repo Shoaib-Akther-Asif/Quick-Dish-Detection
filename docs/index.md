@@ -1,13 +1,12 @@
 ---
 layout: page
 title: Home
-permalink: /Food-recognizer/
+permalink: /food-recognizer/
 ---
 
-
 # Food_recognizer
-Can classify 25 different types of foods <br/>
-The types are following: <br/>
+This app can classify 25 different types of foods.
+The types are following:
 1. BBQ Ribs  
 2. Burger  
 3. Cheesecake  
@@ -33,3 +32,4 @@ The types are following: <br/>
 23. Sushi  
 24. Taco  
 25. Waffles
+[Click here to try the Food Recognition App](food_recognizer.html)

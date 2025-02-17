@@ -4,8 +4,8 @@ title: Home
 permalink: /
 ---
 
-# Image Recognizer
-## Food_recognizer
+
+# Food_recognizer
 Can classify 25 different types of foods <br/>
 The types are following: <br/>
 1. BBQ Ribs  

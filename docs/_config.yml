@@ -7,8 +7,6 @@ description: "An image classification API that classifies 20 different types of 
 author:
   name: "Shoaib Akther Asif"
 
-# You don't need to specify 'docs' explicitly here
-# GitHub Pages uses the docs folder automatically
+
 
 permalink: /
-

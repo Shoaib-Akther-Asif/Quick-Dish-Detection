@@ -1,0 +1,9 @@
+remote_theme: daviddarnes/alembic@main
+plugins:
+- jekyll-remote-theme
+
+title: Food Recognizer
+description: An image classification API that classifies 20 different types of caps worn around the world
+
+author:
+  name: Shoaib Akther Asif

@@ -66,7 +66,7 @@ The model can recognize the following food items:
 - Live demo available here: [Hugging Face Deployment](https://huggingface.co/spaces/shoaib-akther/Food_recognition).  
 
 📸 **Preview of Gradio App:**  
-<img src="deployment/HuggingfaceApp.png" width="800" height="400">  
+<img src="app/HuggingfaceApp.png" width="800" height="400">  
 
 ---
 

@@ -2,7 +2,7 @@ remote_theme: daviddarnes/alembic@main
 plugins:
 - jekyll-remote-theme
 
-title: Cap Recognizer
+title: Food Recognizer
 description: An image classification API capable of identifying 25 different types of food.
 
 author:

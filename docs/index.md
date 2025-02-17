@@ -1,7 +1,6 @@
 ---
-layout: page
 title: Home
-permalink: /food-recognizer/
+layout: page
 ---
 
 # Food_recognizer

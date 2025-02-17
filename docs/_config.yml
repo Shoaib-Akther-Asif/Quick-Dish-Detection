@@ -1,18 +1,10 @@
-remote_theme: "mmistakes/minimal-mistakes@master"
+remote_theme: daviddarnes/alembic@main
 plugins:
-  - jekyll-remote-theme
+- jekyll-remote-theme
 
-title: "Food Recognizer"
-description: "An image classification API that classifies 25 different types of foods"
+title: Cap Recognizer
+description: An image classification API capable of identifying 25 different types of food.
+
 author:
-  name: "Shoaib Akther Asif"
-
-url: "https://Shoaib-Akther-Asif.github.io"
-baseurl: "/Capstone-project---Image-Detect"
-
-# Specify the docs folder for GitHub Pages
-source: docs
-
-# Change the permalink format
-permalink: /food-recognizer/
+  name: Shoaib Akther Asif
 

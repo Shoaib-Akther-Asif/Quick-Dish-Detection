@@ -1,0 +1,83 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Recognition App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Food Recognition App</h1>
+  <p>Upload an image to recognize the food item.</p>
+
+  <!-- Input for uploading an image -->
+  <input type="file" id="imageInput" accept="image/*">
+
+  <!-- Display the result -->
+  <div id="result"></div>
+
+  <!-- Display the uploaded image -->
+  <img id="preview" src="#" alt="Preview" style="display: none; margin-top: 20px;">
+
+  <!-- Include the Gradio JavaScript client -->
+  <script type="module">
+    import { Client } from "https://cdn.jsdelivr.net/npm/@gradio/client/dist/index.min.js";
+
+    // Connect to your Hugging Face Gradio app
+    const app = await Client.connect("shoaib-akther/Food_recognition");
+
+    // Function to handle prediction
+    async function predict() {
+      const imageInput = document.getElementById("imageInput");
+      const resultDiv = document.getElementById("result");
+      const previewImg = document.getElementById("preview");
+
+      if (imageInput.files.length === 0) {
+        resultDiv.innerHTML = `<strong>Please upload an image.</strong>`;
+        return;
+      }
+
+      // Display the uploaded image
+      const file = imageInput.files[0];
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        previewImg.src = e.target.result;
+        previewImg.style.display = "block";
+      };
+      reader.readAsDataURL(file);
+
+      try {
+        // Send image to Gradio API
+        const result = await app.predict(0, [file]); // "0" is the first input component index
+
+        console.log(result); // Debugging: Check API response format
+
+        // Extract prediction correctly
+        let foodName = "Unknown Food"; // Default fallback
+
+        if (Array.isArray(result.data) && result.data.length > 0) {
+          foodName = result.data[0].label || "Unknown Food"; // Extract label from first object in array
+        }
+
+        resultDiv.innerHTML = `<strong>${foodName}</strong>`;
+      } catch (error) {
+        resultDiv.innerHTML = `<strong>Error:</strong> ${error.message}`;
+        console.error(error);
+      }
+    }
+
+    // Automatically trigger prediction when an image is selected
+    document.getElementById("imageInput").addEventListener("change", predict);
+  </script>
+</body>

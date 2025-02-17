@@ -30,4 +30,3 @@ The types are following:
 23. Sushi  
 24. Taco  
 25. Waffles
-[Click here to try the Food Recognition App](food_recognizer.html)

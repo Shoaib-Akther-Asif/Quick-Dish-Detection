@@ -1,5 +1,5 @@
 ---
-title: Food recognizer
+title: Home
 layout: page
 ---
 

@@ -83,7 +83,7 @@ The model can recognize the following food items:
 - **Trained Model:** [Download Here](https://drive.google.com/drive/folders/1XpBUckWP76DLaWytmuNJY2y0LfK6p9Ag?usp=sharing) (`.pkl` format).  
   - The final model used: `food-recognizer-v1.pkl`.  
 - **Data Loaders:** [Access Here](https://drive.google.com/drive/folders/1YOTuRQ_DVUiIyFh5lVUsYZe6LMfUu6xa?usp=sharing).  
-
+- **Data:** [Access Here](https://drive.google.com/drive/folders/1-2NUtarvn3mOdojgN-ooQTKpYA8cVgEX?usp=sharing).
 ---
 
 ### 🛠️ How to Use  

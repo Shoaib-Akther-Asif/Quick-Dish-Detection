@@ -7,8 +7,8 @@ description: "An image classification API that classifies 20 different types of 
 author:
   name: "Shoaib Akther Asif"
 
-# Set baseurl depending on where the site is hosted
-baseurl: "" # Leave as "" if you're using GitHub user/organization pages, or "/Capstone-project---Image-Detect" for project pages.
+url: "https://Shoaib-Akther-Asif.github.io"
+baseurl: "/Capstone-project---Image-Detect"
 
 # Specify the docs folder for GitHub Pages
 source: docs

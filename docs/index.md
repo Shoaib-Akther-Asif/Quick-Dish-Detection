@@ -2,7 +2,7 @@
 title: Home
 layout: page
 ---
-
+# Food recognizer
 This app can classify 25 different types of foods.
 The types are following:
 1. BBQ Ribs  

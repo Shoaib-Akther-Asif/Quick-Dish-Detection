@@ -1,11 +1,22 @@
-theme: jekyll-theme-minimal  # The theme you're using
-title: Capstone-project---Image-Detect  # The title of your site
-description: A place to showcase my work  # A short description of your website
-url: "https://Shoaib-Akther-Asif.github.io"  # Your GitHub Pages URL (replace with your username)
-baseurl: ""  # Keep this empty unless using a subfolder
-markdown: kramdown  # The markdown engine used for writing posts
-author:
-  name: Shoaib Akther Asif  # Your name as the author
+# _config.yml
+title: Food Recognition App
+description: Upload an image to recognize food items.
+baseurl: "" # leave this empty for the root directory
+url: "https://<username>.github.io" # replace <username> with your GitHub username
+theme: jekyll-theme-slate # You can use other Jekyll themes or leave it blank if using plain HTML
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Social Media
+social:
+  github: "https://github.com/<username>"
+  twitter: "https://twitter.com/<username>"
+  linkedin: "https://www.linkedin.com/in/<username>"
+  
+# Permalinks for posts or pages
+permalink: /:year/:month/:day/:title/
+
 
 
 

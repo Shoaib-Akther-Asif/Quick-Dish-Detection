@@ -1,5 +1,5 @@
 ---
-title: Food Recognizer
+title: Food Recognizer App
 layout: page
 ---
 <head>
@@ -23,18 +23,11 @@ layout: page
 </head>
 <body>
   <h1>Food Recognition App</h1>
-  <p>Upload an image to recognize the food item.</p>
-
-  <!-- Input for uploading an image -->
+  <p><b>Upload an image to recognize the food item.</b></p>
   <input type="file" id="imageInput" accept="image/*">
-
-  <!-- Display the result -->
   <div id="result"></div>
-
-  <!-- Display the uploaded image -->
   <img id="preview" src="#" alt="Preview" style="display: none; margin-top: 20px;">
 
-  <!-- Include the Gradio JavaScript client -->
   <script type="module">
     import { Client } from "https://cdn.jsdelivr.net/npm/@gradio/client/dist/index.min.js";
 

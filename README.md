@@ -1,4 +1,4 @@
-# Capstone Project - Food Recognizer  
+# Quick-Dish-Detection | Image Recognition  
 
 An end-to-end image classification project covering data collection, preprocessing, model training, deployment, and API integration.  
 

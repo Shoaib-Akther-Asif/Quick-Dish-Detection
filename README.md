@@ -1,8 +1,6 @@
 # Quick-Dish-Detection | Image Recognition  
 
-An end-to-end image classification project covering data collection, preprocessing, model training, deployment, and API integration.  
-
-The model is capable of classifying **25 different types of food** with high accuracy.  
+An end-to-end image classification project covering data collection, preprocessing, model training, deployment, and API integration. Leveraging a dataset of over 5000 images, this project utilizes advanced image recognition techniques to classify and detect 25 distinct food categories with high accuracy.  
 
 ## 🍽️ Food Categories  
 The model can recognize the following food items:  
@@ -35,7 +33,7 @@ The model can recognize the following food items:
 ## 📂 Dataset Preparation  
 
 ### 👅 Data Collection  
-- Images were scraped from **DuckDuckGo** using search queries corresponding to food item names.  
+- Images were scraped from **DuckDuckGo** using search queries corresponding to food item names.
 
 ### 📦 DataLoader  
 - The **FastAI DataBlock API** was utilized to efficiently create and manage data loaders.  
